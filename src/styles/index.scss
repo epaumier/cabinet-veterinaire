@@ -11,7 +11,7 @@ body {
 
 /* Tailwind @apply directives will be processed by PostCSS after the SASS rendering takes place */
 
-a { @apply text-blue-600 no-underline border-b-2 border-blue-200 }
+a { @apply text-blue-600 no-underline border-blue-200 }
 a:hover { @apply text-blue-800 border-blue-600 }
 
 .list li {
