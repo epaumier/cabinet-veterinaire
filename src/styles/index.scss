@@ -48,7 +48,7 @@ h3 {
   overflow: hidden;
 }
 .slider {
-  width: 1200px;
+  width: 300px;
   text-align: center;
   overflow: hidden;
 }
@@ -78,8 +78,8 @@ h3 {
 .slide-div {
   scroll-snap-align: center;
   flex-shrink: 0;
-  width: 1200px;
-  height: 600px;
+  width: 300px;
+  height: 300px;
   margin-right: 50px;
   // border-radius: 10px;
   background: #eee;
@@ -209,5 +209,24 @@ h3 {
   }
   a:hover {
     text-decoration: underline;
+  }
+}
+
+.infosPratiques {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  .infosPratiques {
+    flex-direction: column;
+  }
+  .slider {
+    width: 1200px;
+  }
+  .slide-div {
+    width: 1200px;
+    height: 600px;
   }
 }
