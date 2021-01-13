@@ -1,11 +1,9 @@
 # Eleventy Website for a veterinary's office
 
-## Tai11s - the Eleventy + Tailwind CSS starter
-
-## Credit
+### Tai11s - Credit
 This is a fork of a starter repo originally created by [Ian Rose](https://github.com/ianrose/deventy/).
 
-### How to use in development
+#### How to use in development
 
 ```
 $ npm run dev
@@ -29,7 +27,7 @@ The local url is configured in `.lightserverrc`
 npm run build
 ```
 
-## BONUS: Travis Github Pages deployment script
+### BONUS: Travis Github Pages deployment script
 
 `.travis.yml` can be modified to suit your own needs. This simple script will build from a named branch and deploy to Github Pages via your [Travis CI](https://travis-ci.org/) account. 
 
