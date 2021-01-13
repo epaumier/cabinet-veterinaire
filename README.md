@@ -1,6 +1,6 @@
 # Eleventy Website for a veterinary's office
 
-# Tai11s - the Eleventy + Tailwind CSS starter
+## Tai11s - the Eleventy + Tailwind CSS starter
 
 ## Credit
 This is a fork of a starter repo originally created by [Ian Rose](https://github.com/ianrose/deventy/).
