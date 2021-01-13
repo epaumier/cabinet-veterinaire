@@ -230,6 +230,16 @@ h3 {
   box-shadow: 8px 8px 3px -2px grey;
 }
 
+@media only screen and (min-width: 400px) {
+  .slider {
+    width: 600px;
+  }
+  .slide-div {
+    width: 600px;
+    height: 300px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .infosPratiques {
     flex-direction: row;
@@ -245,3 +255,4 @@ h3 {
     height: 600px;
   }
 }
+
