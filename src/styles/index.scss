@@ -214,13 +214,28 @@ h3 {
 
 .infosPratiques {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardElement {
+  display: flex;
+  margin: 0.5rem;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffff;
+  border-style: solid;
+  border-color: #0d0f25;
+  border-width: 0.3rem;
+  box-shadow: 8px 8px 3px -2px grey;
 }
 
 @media only screen and (min-width: 768px) {
   .infosPratiques {
-    flex-direction: column;
+    flex-direction: row;
+  }
+  .cardElement {
+    width: 500px;
   }
   .slider {
     width: 1200px;
